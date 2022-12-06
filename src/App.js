@@ -107,7 +107,9 @@ function App() {
                 design practices.
                 
               </Card.Text>
+              <a href="https://hilariousalpaca112.github.io/development-page/">
               <Button variant="secondary">See Project</Button>
+              </a>
             </Card.Body>
           </Card> 
           </Col>     
