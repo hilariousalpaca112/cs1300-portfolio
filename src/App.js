@@ -31,89 +31,71 @@ function App() {
         </p>
       </div>
       </div>
+<div className="project-header">
+      <span className="arrow-right">&#8595;</span>
+      <p>Projects</p>
+      <span className="arrow-left">&#8595;</span>
+</div>
+<div className="project-container">
+<a href="https://hilariousalpaca112.github.io/personas/">
+  <div className="project-item">
 
-        <div className="project-header">
-          <p>Projects I've Worked On</p>
+    <div className="project-description">
+        <p className="project-title"><b>Personas & Storyboarding</b></p>
+         <p className="about-text">
+        In this project, I observed users of the New York City MetroCard machines. Based on these observations and a brief interview with some users,
+        I designed personas and a storyboard to describe what the user experience is for the MetroCard machines.
+        </p>
         </div>
-        <div className="project-container">
-        <Row xs={1} md={2} className="g-4">    
-      
-          <Col>
-          <Card
+        <img src={require("./images/personas.png") } alt="personas image">
+        </img>
+        </div>
+    </a>
 
-          border="secondary"
-          className="card-item">
-          <Card.Img variant="top" className="project-img"src={require("./images/personas.png") }/>
-            <Card.Body>
-              <Card.Title>Personas & Storyboarding</Card.Title>
-              <Card.Text>
-                In this project, I observed users of the New York City MetroCard machines. Based on these observations and a brief interview with some users,
-                I designed personas and a storyboard to describe what the user experience is for the MetroCard machines.
-              </Card.Text>
-              <a href="https://hilariousalpaca112.github.io/personas/">
-              <Button 
-              variant="secondary">See Project</Button>
-              </a>
-            </Card.Body>
-          </Card>
-          </Col>
+    <a href="https://hilariousalpaca112.github.io/responsive-redesign/">
+  <div className="project-item">
+  <img src={require("./images/redesign.png") } alt="responsive redesign image">
+        </img>
+    <div className="project-description">
+        <p className="project-title"><b>Responsive Redesign</b></p>
+         <p className="about-text">
+         For this project, I redesigned a website interface with usability and accessibility principles in mind. Additionally, the redesigned site is 
+         responsive, so play around with different screen sizes to see how it looks on other devices!
+        </p>
+        </div>
 
+        </div>
+    </a>
 
-          <Col>
-          <Card
-          border="secondary"
-          className="card-item">
-          <Card.Img variant="top" className="project-img" src={require("./images/redesign.png") }/>
-            <Card.Body>
-              <Card.Title>Responsive Redesign</Card.Title>
-              <Card.Text>
-                For this project, I redesigned a website interface with usability and accessibility principles in mind. Additionally, the redesigned site is 
-                responsive, so play around with different screen sizes to see how it looks on other devices!
-              </Card.Text>
-              <a href="https://hilariousalpaca112.github.io/responsive-redesign/">
-              <Button variant="secondary">See Project</Button>
-              </a>
-            </Card.Body>
-          </Card>
-          </Col>
-
-          <Col>
-          <Card 
-          border="secondary"
-          className="card-item">
-          <Card.Img variant="top" className="project-img" src={require("./images/iterative-design.png") }/>
-            <Card.Body>
-              <Card.Title>Iterative Design</Card.Title>
-              <Card.Text>
-                As part of a <b>group project</b>, I helped to design an interface for Radius, a grocery delivery service
+    <a href="https://coldturkey888.github.io/cs1300-iterative-design/">
+  <div className="project-item">
+    <div className="project-description">
+        <p className="project-title"><b>Iterative Design</b></p>
+         <p className="about-text">
+         As part of a <b>group project</b>, I helped to design an interface for Radius, a grocery delivery service
                 based out of Jakarta, Indonesia. I gained valuable skills with prototyping and incorporating feedback from critiques!
-              </Card.Text>
-              <a href="https://coldturkey888.github.io/cs1300-iterative-design/">
-              <Button variant="secondary">See Project</Button>
-              </a>
-            </Card.Body>
-          </Card>
-          </Col>
+        </p>
+        </div>
+        <img src={require("./images/iterative-design.png") } alt="iterative design image">
+        </img>
+        </div>
+    </a>
 
-          <Col>
-          <Card 
-          border="secondary"
-          className="card-item">
-          <Card.Img variant="top" className="project-img" src={require("./images/development.png") }/>
-            <Card.Body>
-              <Card.Title>Development</Card.Title>
-              <Card.Text>
-                I used React for this project to create a simple online wine shop. It was a great way to learn more about React as well as good
-                design practices.
-                
-              </Card.Text>
-              <a href="https://hilariousalpaca112.github.io/development-page/">
-              <Button variant="secondary">See Project</Button>
-              </a>
-            </Card.Body>
-          </Card> 
-          </Col>     
-        </Row>
+
+    <a href="https://hilariousalpaca112.github.io/development-page/">
+  <div className="project-item">
+  <img src={require("./images/development.png") } alt="development image">
+        </img>
+    <div className="project-description">
+        <p className="project-title"><b>Development</b></p>
+         <p className="about-text">
+         I used React for this project to create a simple online wine shop. It was a great way to learn more about React as well as good
+         design practices.
+        </p>
+        </div>
+
+        </div>
+    </a>
         </div>
     </div>
   );
