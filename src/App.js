@@ -16,11 +16,11 @@ function App() {
         </div>
       <div className="App-header">     
         <p>
-          Hi! I'm hilariousalpaca112!
+          Hello, I'm hilariousalpaca112!
         </p>
         <p className="about-text">
-          I am a Masters in Computer Science student at Brown University specializing in Design. I  was previously at the University of Nevada, Reno where
-          I graduated with an Honors Baccalaureate Degree in Computer Science & Engineering. 
+          Currently at <span className="brown">Brown University</span> pursuing a Masters in Computer Science. Previously, at <span className="nevada">University of Nevada</span>, I graduated with a 
+          degree in Computer Science & Engineering. 
         </p>
         <p className="about-text">
           I am currently an intern for MOLE, an EV charging startup based out of the United Kingdom. 

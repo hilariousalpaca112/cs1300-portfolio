@@ -23,6 +23,12 @@ img{
   min-height: 100vh;
 
 }
+.brown{
+  color: brown;
+}
+.nevada{
+  color: navy;
+}
 .App-header {
   background-color: white;
   display: flex;
